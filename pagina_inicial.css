@@ -1,0 +1,98 @@
+body{
+    background-color: #EEEEEE ;
+}
+body, ul, li, p{
+    list-style: none;
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+    color: #666666;
+}
+header{
+    background-color: #FFFFFFFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    
+
+}
+.menu_li{
+    display: flex;
+    
+}
+li{
+    margin-left: 10px;
+}
+
+html{
+    background-color: white;
+}
+.hoppes{
+    text-align: center;
+    
+}
+#h2_hopper{
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p_hopper{
+    text-align: center;
+    font-size: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inovacoes_tecnologicas{
+    text-align: center;
+    margin-top: 56px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.flex-container1 > div{
+    background-color:#FFFFFFFA;
+    line-height: 30%;
+    border-radius: 5%;
+}
+@media (min-width: 1600px) {
+    .flex-container1 {
+      padding-inline: 11%;
+    }
+}
+
+button{
+background:#FF0000;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow:none;
+width: 60%;
+height:38px;
+margin-left: 56px;        
+}
+button:hover{
+background: #990000;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow:none;
+}
+#imagem{
+    text-align: center;
+}
+
